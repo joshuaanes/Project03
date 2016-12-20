@@ -1,0 +1,87 @@
+/*	****************************************
+	Base styles
+	**************************************** */
+html, body {
+    margin: 0; /* typical - gets rid of the default margin on the BODY */
+    height: 100%; /* required - makes sections act like pages */
+}
+
+/*	****************************************
+	Persistent Navigation
+	**************************************** */
+.main-menu {
+	position: fixed; /* required - magic */
+	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
+	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
+	width: 100%; /* required - makes the menu go all the way across the viewport */
+	background-color: yellow; 
+}
+.main-menu ul {
+	/* standard removal of UL styles */
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+
+
+	/* required - get LIs to line-up side-by-side */
+	display: flex;
+	float: right;
+	
+}
+.main-menu a { 
+	/* typical - make links look/act like buttons */
+	display: block;
+	padding: 30px;
+	color: #800000;
+	text-decoration: none;
+}
+
+.main-menu a:hover { color: blue; }
+
+.main-menu h1{
+	font-style: italic;
+	color: #800000;
+	display: flex;
+	float: left;
+}
+
+/*	****************************************
+	Long-scrolly sections
+	**************************************** */
+section {
+    min-height: 100%; /* required - makes the sections act like pages */
+    padding-top: 75px; /* how tall is the persistent nav bar at the top? */
+    padding-bottom: 25px; /* typical - keep content away from the next section */
+    text-align: center; /* typical for long scrolly pages */
+}
+
+
+#theband {
+	background-image: url(../images/fam.jpg);
+	font-color: white;
+}
+
+.zpattern-header{
+	text-align: left;
+	margin: 0 0 0 0px;
+	color: yellow;
+	font: bold;
+	font-color: yellow;
+	font-size: 70px;
+}
+
+
+.zpattern-bottom-row{
+    position: absolute;
+    display: table-cell;
+    margin-left:50px;
+    bottom:10px;
+    align-content: center;
+    background-color: yellow;
+    font-color:#800000;
+    width:90%;
+    border: 10px;
+   }
+
+ /* typical - alter the bg for every other section */
+section:nth-child(even) {background-color: #eee; }

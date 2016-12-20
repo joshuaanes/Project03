@@ -1,0 +1,18 @@
+/*background color for website*/
+body {
+  background-image:  url(../images/background.jpg);
+  font-family: Taviraj, Trirong;
+}
+
+
+/*Footer*/
+.footer {
+	color: black;
+}
+
+/*Navbar highlighter*/
+
+.current {
+ 		background-color: 	#DCDCDC;
+ 		color: white;
+}
