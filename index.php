@@ -6,7 +6,7 @@
     <link href="carousel.css" rel="stylesheet">
     <link href="che.css" rel="stylesheet">
 
-  
+  <title>Josh Anes</title>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -16,13 +16,20 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
+        <p class= "z-pattern">Joshua Anes is a senior at the University of Rochester. Joshua is pursuing a degree in Political Science and a minor in Jewish Studies.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-square" src="images/fam.jpg" alt="Generic placeholder image" width="400" height="400">
-          <h2></h2>
-          <p>Joshua Anes is a senior at the University of Rochester. Joshua is pursuing a degree in Political Science and a minor in Jewish Studies.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
+        <img class="img-square" src="images/fam.jpg" alt="Generic placeholder image" width="250" height="250">
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        <img class="img-square" src="images/anes.jpg" alt="Generic placeholder image" width="250" height="250">
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        <p class="z-thing">Joshua Anes worked hard to bring you this webpage. Joshua hopes you enjoy your experience on his site and he hopes you enjoy this lovely z-pattern.</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -75,5 +82,5 @@
 
       <!-- /END THE FEATURETTES -->
 
-
+</body>
  <?php include "inc/footer.inc"; ?>

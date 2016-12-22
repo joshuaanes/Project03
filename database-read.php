@@ -2,7 +2,7 @@
 
 <?php
 
-$connection = mysqli_connect("localhost", "project3", "project3", "project3");
+$connection = mysqli_connect("localhost", "urcscon3_janes", "coffee1N/!", "urcscon3_janes");
 
 
 
@@ -35,6 +35,7 @@ $connection = mysqli_connect("localhost", "project3", "project3", "project3");
 			<th>Id</th>
 			<th>Name</th>
 			<th>Email Address</th>
+			<th>Phone Number</th>
 			<th>Message</th>
 		</tr>
 
@@ -47,6 +48,7 @@ $connection = mysqli_connect("localhost", "project3", "project3", "project3");
 			<td><?php echo $pages["id"]; ?></td>
 			<td><?php echo $pages["name"]; ?></td>
 			<td><?php echo $pages["email_address"]; ?></td>
+			<td><?php echo $pages["phone_number"]; ?></td>
 			<td><?php echo $pages["message"]; ?></td>
 		</tr>
 		

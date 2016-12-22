@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = "localhost";
-$dbuser = "project3";
-$dbpass = "project3";
-$dbname = "project3";
+$dbuser = "urcscon3_janes";
+$dbpass = "coffee1N/!";
+$dbname = "urcscon3_janes";
 
 ?>

@@ -1,11 +1,18 @@
 <footer>
+    <div class ="foot">
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2016 Company, Inc. &middot; <a href="https://www.facebook.com/josh.anes58">Facebook</a> &middot; <a href="https://twitter.com/joshuaanes">Twitter</a></p>
-      </footer>
+    </div>
+ </footer>
 
     </div><!-- /.container -->
 
+    <style>
+    .pull-right {
+        color: white;
+    }
 
+    </style>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

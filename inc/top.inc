@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<html>
-
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,7 +12,7 @@
 
 
 
-    <title>Navbar Template for Bootstrap</title>
+    <title>Josh Anes</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/min.css" rel="stylesheet">
@@ -67,7 +64,7 @@
             </ul>
               
 
-           
+           </div>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>

@@ -1,18 +1,57 @@
-/*background color for website*/
+/*Base Styles*/
 body {
   background-image:  url(../images/background.jpg);
   font-family: Taviraj, Trirong;
 }
 
-
-/*Footer*/
-.footer {
-	color: black;
+.foot {
+	color: white;
 }
 
-/*Navbar highlighter*/
+.box {
+	margin: 10px;
+	padding: 3px;
+	
+}
+
+.foot a {
+	color: white;
+}
+
+
+
+/*Layout Styles*/
 
 .current {
- 		background-color: 	#DCDCDC;
+ 		background-color: #DCDCDC;
  		color: white;
 }
+
+#form .box {
+	margin: 10px;
+	padding: 3px;
+}
+
+.myForm {
+	background-color: #00cccc;
+	padding: 20px;
+}
+
+.myForm {
+	font-weight: bold;
+	text-decoration: none;
+	color: #004d4d;
+}
+
+.z-thing {
+	padding-top: 100px;
+}
+
+.z-pattern {
+	padding-top: 20px;
+}
+
+
+/*Modules*/
+
+
